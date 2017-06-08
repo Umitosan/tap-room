@@ -3,22 +3,21 @@
 /* */
 /* */
 /* */
-/* */
+/* brewery http://www.nabreweries.com/images/slides/slide6.jpg*/
 /* http://www.rockymountainbarrelcompany.com/wp-content/uploads/2015/12/Bourbon_Barrel_Web-1.png */
 
-
 body {
-  /*background-color: lightgrey;*/
+  background-color: #ffe;
 }
 
 .main-title {
   text-align: center;
-  background-color: lightblue;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-top: 70px;
+  padding-bottom: 70px;
   margin-bottom: 20px;
+  background-image: url("http://www.nabreweries.com/images/slides/slide6.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 
@@ -57,7 +56,30 @@ ul {
   height: 120px;
 }
 
-
 #kegButtons {
   margin-top: 25px;
+}
+
+#kegFullness {
+  height: 170px;
+  float: left;
+}
+
+#kegFullnessDiv {
+  float: right;
+}
+
+#details {
+  float: left;
+}
+
+#kegFill {
+  margin-top: 18px;
+  margin-left: 24px;
+  background-color: gold;
+  height: 110px;
+  width: 102px;
+  border-radius: 28px;
+  border-color: none;
+  border-style: none;
 }
